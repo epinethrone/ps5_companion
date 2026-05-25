@@ -1,0 +1,13 @@
+{
+  "domain": "ps5_companion",
+  "name": "PS5 Companion",
+  "version": "0.1.0",
+  "codeowners": ["@epinethrone"],
+  "config_flow": true,
+  "dependencies": ["playstation_network", "mqtt", "http"],
+  "documentation": "https://github.com/epinethrone/ps5_companion",
+  "integration_type": "service",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/epinethrone/ps5_companion/issues",
+  "requirements": []
+}

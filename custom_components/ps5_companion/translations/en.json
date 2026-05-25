@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "PS5 Companion",
+        "description": "Detected {candidate_count} PS5 MQTT power switch(es). Pick which one corresponds to this PS5, and optionally select a speaker to delegate volume controls to.",
+        "data": {
+          "name": "Name",
+          "power_switch": "PS5 MQTT power switch",
+          "volume_delegate": "Volume delegate (optional)"
+        },
+        "data_description": {
+          "power_switch": "The switch entity published by the ps5-mqtt add-on for THIS PS5.",
+          "volume_delegate": "Volume controls on the PS5 Companion entity will be forwarded to this speaker. Leave blank to hide volume controls."
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Only one PS5 Companion entry is supported. To set up a different PS5, please file an issue.",
+      "playstation_network_missing": "The PlayStation Network integration is not configured. Please add it via Settings → Devices & Services → Add Integration → PlayStation Network first, then retry.",
+      "ps5_mqtt_missing": "No PS5 MQTT power switches detected. Please install and configure the ps5-mqtt add-on from the Home Assistant add-on store, pair it with your PS5, and retry.",
+      "legacy_setup_present": "An older YAML-based PS5 setup is still active. To avoid duplicate / conflicting entities, please remove these entities first: {entities}. See the MIGRATION section in the integration README."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "PS5 Companion options",
+        "data": {
+          "power_switch": "PS5 MQTT power switch",
+          "volume_delegate": "Volume delegate (optional)"
+        }
+      }
+    }
+  }
+}
