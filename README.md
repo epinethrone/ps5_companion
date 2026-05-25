@@ -122,7 +122,3 @@ Please include:
 ## License
 
 MIT — see [LICENSE](LICENSE)
-
-## Credits
-
-Built from the lessons of the [home-assistant/core#156776 thread](https://github.com/home-assistant/core/issues/156776) and the YAML-based PS5 dashboard pattern documented at 
