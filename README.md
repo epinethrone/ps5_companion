@@ -2,6 +2,8 @@
 
 [![HACS Custom](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://hacs.xyz)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+<img width="521" height="206" alt="Screenshot 2026-05-25 at 19 59 42" src="https://github.com/user-attachments/assets/20286c93-b117-420e-8e92-55bd90f5f9d0" />
+
 
 A single Home Assistant `media_player` entity that consolidates everything you usually need to glue manually for a polished PS5 dashboard tile:
 
